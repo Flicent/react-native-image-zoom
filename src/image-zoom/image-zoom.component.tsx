@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import { Animated, LayoutChangeEvent, PanResponder, StyleSheet, View } from 'react-native';
 import styles from './image-zoom.style';
