@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-pan-zoom",
+  "name": "@flicent/react-native-image-pan-zoom",
   "version": "2.1.12",
   "description": "react native image pan zoom",
   "main": "built/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ascoders/react-native-image-zoom.git"
+    "url": "https://github.com/Flicent/react-native-image-zoom.git"
   },
   "keywords": [
     "image-zoom"
@@ -37,5 +37,8 @@
     "react": "^16.13.1",
     "react-native": "^0.62.2",
     "typescript": "^3.9.2"
+  },
+  "publishConfig": {
+    "@flicent:registry": "https://npm.pkg.github.com"
   }
 }
