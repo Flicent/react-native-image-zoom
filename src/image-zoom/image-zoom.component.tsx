@@ -70,7 +70,9 @@ export default class ImageViewer extends React.Component<ImageZoomProps, ImageZo
     onStartShouldSetPanResponder: this.props.onStartShouldSetPanResponder,
     onPanResponderTerminationRequest: this.props.onPanResponderTerminationRequest,
     onMoveShouldSetPanResponder: this.props.onMoveShouldSetPanResponder,
-
+    onShouldBlockNativeResponder: () => {
+      return this.scale !== this.defaultScale;
+    },
     onPanResponderGrant: (evt) => {
       // 开始手势操作
       this.lastPositionX = null;
